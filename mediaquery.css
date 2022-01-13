@@ -72,3 +72,11 @@
       }
     
 }
+
+/* STAMPA */
+@media print {
+
+    .container.grey {
+        background-color: #FFFFFF;
+
+}

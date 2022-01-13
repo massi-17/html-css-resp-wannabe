@@ -1,3 +1,40 @@
+/* TABLET */
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    
+      .row {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 10px;
+      }
+    
+    /* BLOCCO LEZIONI */
+        #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right, #why .row>.first, #why .row>.second, #why .row>.third {
+        float: left;
+        margin: 15px 0;
+      }
+
+      /* BLOCCO PERCHE */
+      body, #why {
+        background-color: #F2F2CD;
+      }
+    
+      img {
+        height: 100px;
+      }
+    
+      #why .row img {
+        height: 100px;
+        padding: 20px;
+      }
+    
+}
+
 /* SMARTPHONE */
 @media screen and (max-width: 420px) {
 
